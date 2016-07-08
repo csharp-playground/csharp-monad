@@ -2,7 +2,7 @@
 
 https://github.com/louthy/csharp-monad
 
-- [ ] Either
+- [x] Either
 - [ ] EitherStrict
 - [ ] IO
 - [ ] Option
