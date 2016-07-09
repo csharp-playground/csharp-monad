@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF92051C-D27D-4946-AE74-036FD0184058}</ProjectGuid>
+    <ProjectGuid>{95AED844-DB3D-4006-8AAF-84B2D18D13C5}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>JustTryMonad</RootNamespace>
-    <AssemblyName>JustTryMonad</AssemblyName>
+    <RootNamespace>Linq.Tests</RootNamespace>
+    <AssemblyName>Linq.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -28,6 +28,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="Fixie">
+      <HintPath>..\packages\Fixie.1.0.1\lib\net45\Fixie.dll</HintPath>
+    </Reference>
     <Reference Include="FluentAssertions.Core">
       <HintPath>..\packages\FluentAssertions.4.11.0\lib\net45\FluentAssertions.Core.dll</HintPath>
     </Reference>
@@ -36,21 +39,17 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Fixie">
-      <HintPath>..\packages\Fixie.1.0.1\lib\net45\Fixie.dll</HintPath>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.4.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Impl\Try.cs" />
-    <Compile Include="Impl\Utility\ImmutableList.cs" />
-    <Compile Include="Impl\Utility\Unit.cs" />
-    <Compile Include="Impl\EnumerableExt.cs" />
-    <Compile Include="Spec\LinqTests.cs" />
+    <Compile Include="Spec\JwTests.cs" />
+    <Compile Include="Spec\Jw.cs" />
+    <Compile Include="Spec\JwUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Impl\" />
-    <Folder Include="Impl\Utility\" />
     <Folder Include="Spec\" />
   </ItemGroup>
   <ItemGroup>

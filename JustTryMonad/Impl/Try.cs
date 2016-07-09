@@ -394,6 +394,7 @@ namespace JustTryMonad {
 		}
 	}
 
+	/*
 	public class Try {
 		/// <summary>
 		/// Mempty
@@ -402,4 +403,5 @@ namespace JustTryMonad {
 			return () => default(T);
 		}
 	}
+	*/
 }
