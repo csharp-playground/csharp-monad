@@ -5,7 +5,7 @@ https://github.com/louthy/csharp-monad
 - [x] Either
 - [ ] EitherStrict
 - [x] IO
-- [ ] Option
+- [x] Option
 - [ ] OptionStrict
 - [ ] Parser
 - [ ] Reader
