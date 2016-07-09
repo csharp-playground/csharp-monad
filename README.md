@@ -11,7 +11,7 @@ https://github.com/louthy/csharp-monad
 - [x] Reader
 - [ ] RWS
 - [x] State
-- [ ] Try
+- [x] Try
 - [ ] Writer
 
 ## Test
