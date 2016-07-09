@@ -12,7 +12,7 @@ https://github.com/louthy/csharp-monad
 - [ ] RWS
 - [x] State
 - [x] Try
-- [ ] Writer
+- [x] Writer
 
 ## Test
 

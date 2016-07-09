@@ -53,6 +53,7 @@
     <Compile Include="Spec\RWSTests.cs" />
     <Compile Include="Spec\StateTests.cs" />
     <Compile Include="Spec\TryTests.cs" />
+    <Compile Include="Spec\WriterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
