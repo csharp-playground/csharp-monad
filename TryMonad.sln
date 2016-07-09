@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryMonad", "TryMonad\TryMonad.csproj", "{64F8EFCD-E074-4540-BBD1-B69191E21169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustTryMonad", "JustTryMonad\JustTryMonad.csproj", "{EF92051C-D27D-4946-AE74-036FD0184058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{64F8EFCD-E074-4540-BBD1-B69191E21169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64F8EFCD-E074-4540-BBD1-B69191E21169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64F8EFCD-E074-4540-BBD1-B69191E21169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF92051C-D27D-4946-AE74-036FD0184058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF92051C-D27D-4946-AE74-036FD0184058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF92051C-D27D-4946-AE74-036FD0184058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF92051C-D27D-4946-AE74-036FD0184058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

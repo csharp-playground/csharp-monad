@@ -9,6 +9,12 @@ Task("test")
             Fixie("TryMonad/bin/Debug/TryMonad.dll");
     });
 
+Task("just")
+    .Does(() => {
+            DotNetBuild("JustTryMonad/JustTryMonad.csproj");
+            Fixie("JustTryMonad/bin/Debug/JustTryMonad.dll");
+    });
+
 Task("watch")
     .Does(() => {
         var settings = new WatchSettings {
