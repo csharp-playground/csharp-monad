@@ -10,7 +10,7 @@ https://github.com/louthy/csharp-monad
 - [ ] Parser
 - [x] Reader
 - [ ] RWS
-- [ ] State
+- [x] State
 - [ ] Try
 - [ ] Writer
 
