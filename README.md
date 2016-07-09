@@ -8,7 +8,7 @@ https://github.com/louthy/csharp-monad
 - [x] Option
 - [ ] OptionStrict
 - [ ] Parser
-- [ ] Reader
+- [x] Reader
 - [ ] RWS
 - [ ] State
 - [ ] Try

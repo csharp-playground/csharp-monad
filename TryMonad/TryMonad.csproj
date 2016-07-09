@@ -48,6 +48,8 @@
     <Compile Include="Spec\EitherTests.cs" />
     <Compile Include="Spec\IOTests.cs" />
     <Compile Include="Spec\OptionTests.cs" />
+    <Compile Include="Spec\ParsecTests.cs" />
+    <Compile Include="Spec\ReaderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
