@@ -37,6 +37,7 @@ public static class JwExt {
 
 		return new Jw<V>(
 			() => {
+				// ------
 				JwResult<T> resT;
 				try {
 					resT = self();
@@ -46,6 +47,7 @@ public static class JwExt {
 					return new JwResult<V>(e.Message);
 				}
 
+				// ------
 				JwResult<U> resU;
 				try {
 					resU = select(resT.Value)();
@@ -55,6 +57,7 @@ public static class JwExt {
 					return new JwResult<V>(e.Message);
 				}
 
+				// ------
 				V resV;
 				try {
 					resV = bind(resT.Value, resU.Value);
